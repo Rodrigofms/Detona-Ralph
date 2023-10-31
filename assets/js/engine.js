@@ -33,7 +33,7 @@ function countdown() {
 }
 
 function playsound(audioName) {
-  let audio = new Audio(`/assets/media/${audioName}.m4a`);
+  let audio = new Audio(`./assets/media/${audioName}.m4a`);
   audio.volume = 0.2;
   audio.play();
 }
